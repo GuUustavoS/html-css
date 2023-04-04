@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br*">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping text</title>
+    <style>
+   body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(141, 153, 149);
+   }
+   header{
+    background-color: beige;
+    
+   }
+ main{
+    background-color: rgb(119, 116, 113);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+ }
+ article{
+    background-color: rgb(255, 255, 255);
+ }
+ article > aside{
+    background-color: rgb(252, 243, 246);
+ }
+ nav{
+    background-color: rgb(107, 100, 100);
+    padding: 3px;
+   box-shadow: 5px 3px 7px 1px  rgba(0, 0, 0, 0.76) ;
+ }
+nav>a{
+    text-decoration: none;
+    color: beige;
+    margin-right: 30px;
+}
+footer{
+    background-color: rgb(226, 85, 85);
+    margin: auto;
+}
+div#bola{
+    height:100px ;
+    width:100px ;
+    margin:auto ;
+    background-color: blue ;
+    border-radius: 50%;
+    
+}
+
+    </style>
+</head>
+<body>
+      <header>
+          <h1>Meu site</h1>
+          <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+             
+        
+        
+        </nav>
+      </header>
+      <main>
+         <section id="assuntos">
+              <p>Esportes</p>
+         </section>
+         <section id="noticias">
+         <article>
+              <aside>
+
+              
+            <p>autor guanabara</p>
+            </aside>
+         </article>    
+         <article>
+
+           <p>destaque</p>
+         </article>
+
+
+
+
+         </section>
+      </main>
+      <footer>
+          desenvolvido pelo guanabara
+      </footer>
+      <div id="bola"></div>
+</body>
+</html>
