@@ -19,7 +19,12 @@
 
         }
   
-  
+  header{
+    border-radius: 100px 10px 0px 0px;
+    padding: 10px;
+    margin: auto;
+    width: 610px;
+  }
   
   h1#principal{
     font-family: 'Satisfy', cursive;
