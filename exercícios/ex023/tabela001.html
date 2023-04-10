@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <STyle>
+        BODY{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+            
+        }
+      
+        td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;/*alinhamentpo horizontal*/
+            vertical-align: middle;/*alinhamento vertical-top, middle, bottom*/
+        }
+        .numero{
+            text-align: right;
+        }
+        .numero2{
+            text-align: left;
+        }
+       
+    </STyle>
+</head>
+<body>
+    <h1>primeira tabela</h1>
+    <!--Hierarquia tabelas(simples)
+     table=tabela
+     table row=linha de tabela
+     table header=cabeçalho de tabela
+     table data=dado de tabela
+    -->
+    <table>
+        <tr> <!--PRIMEIRA LINHA-->
+            <td>A1</td>
+            <TD>B1</TD>
+            <TD>C1</TD>
+            
+        </tr>
+        <tr >
+            <td class="numero2">A2</td>
+            <TD>B2</TD>     
+             <TD class="numero">C2</TD>
+        </tr>
+        <TR>
+            <TD>A3</TD>
+            <TD >B3</TD>
+            <TD class=>C3</TD>
+          
+        </TR>
+    </table>
+</body>
+</html>
