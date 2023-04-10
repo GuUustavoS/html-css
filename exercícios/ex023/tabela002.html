@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+              width: 500px;
+              border-collapse: collapse;/*usamos está tag PARA QUE NÃo haja um espaço entre as colunas*/
+              position: relative;
+             
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: lightslategray;
+        }
+        thead,tfoot{
+            background-color: gray;
+            color:white;
+        }
+        thead>tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+        tbody>tr:nth-child(2n-1){
+            background-color: lightgray;
+        }
+        /*Tambem podemos usar ao inves de (2n-1) ou (2n) podemos nutilizar (odd) e (even) na respectiva ordem*/
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--ANATOMIA TABELAS GRANDES
+    TABLE 
+         CAPTION
+         THEAD
+            TR,TD,TH
+        TBODY
+            TR,TD,TH  
+        TFOOT
+            TR,TD,TH
+        -->
+        <table>
+            <caption>População</caption>
+            <thead>
+                <tr>
+                    <th>Estado</th>
+                    <th>População</th>
+                </tr>
+            </thead>
+            <tbody>
+                  <tr>
+                    <td>São Paulo</td>
+                    <td scope="col" width="50px">50 milhões</td>
+                  </tr>
+                  <tr>
+                    <td>Minas Gerais</td>
+                    <td scope="col">21.000.000</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Bahia
+                        <td scope="col">20.000.000</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  <tr>
+                    <td>Rio de Janeiro</td>
+                    <td scope="col">17.009.600</td>
+                  </tr>
+                  
+                  
+
+                  
+
+                  
+
+                  
+                  
+                  
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total habitantes</th>
+                    <td>0000</td>
+                </tr>
+
+            </tfoot>
+        </table>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere omnis, ea asperiores debitis perferendis labore temporibus doloremque aut incidunt nam nisi dicta delectus iste cupiditate pariatur ipsam a eligendi culpa.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, quia aliquam earum architecto ullam accusantium sequi alias nam adipisci, est distinctio blanditiis, soluta ipsum voluptas nobis ex natus veritatis qui!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam id a hic recusandae expedita necessitatibus rem earum fugiat temporibus voluptates numquam molestiae qui, autem perspiciatis repellat labore nihil vero blanditiis!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint eligendi corporis at delectus quae quas quam placeat doloremque labore vero. Voluptas eius quis fugit neque sunt! Quo asperiores impedit aliquam!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, non cumque ducimus voluptatibus quasi accusantium fuga vitae illum expedita ullam aperiam. Magni delectus tempore rem at facilis! Dignissimos, dic<p>
+                ta voluptatibus.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem accusantium exercitationem iste. Est minima assumenda deserunt. Adipisci consectetur ipsam sint, mollitia rerum id modi omnis dolorem dolores in laborum.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p> Laborum minima maiores necessitatibus, libero nam aspernatur culpa incidunt, nihil beatae amet impedit aut voluptates ullam architecto eos quia et! Nisi, <officia class="lo"></officia>
+        </p>
+</body>
+</html>
